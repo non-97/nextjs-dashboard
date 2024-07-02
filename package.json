@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "export": "NEXT_EXPORT=true next build && next-export-optimize-images",
     "dev": "next dev",
     "start": "next start"
   },
@@ -26,7 +27,8 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react-dom": "18.3.0",
+    "next-export-optimize-images": "^4.5.0"
   },
   "engines": {
     "node": ">=20.12.0"

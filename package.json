@@ -1,8 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
-    "export": "NEXT_EXPORT=true next build && next-export-optimize-images",
+    "build": "next build && next-export-optimize-images",
     "dev": "next dev",
     "start": "next start"
   },
